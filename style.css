@@ -1,0 +1,38 @@
+body{
+    display: grid;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: black;
+    width: 100%;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr); 
+    width: 550px;
+   
+}
+.gridItem{
+    background-color:#f5ca81;
+    width: 100%;
+    box-sizing: border-box;
+    aspect-ratio: 1 / 1;
+    transition: background-color 0.3s ease;
+}
+.buttonContainer{
+    display: inline-block;
+    text-align: center;
+
+}
+.btn{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #b2b797;
+}
